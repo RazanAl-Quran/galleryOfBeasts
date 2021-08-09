@@ -10,7 +10,7 @@ class Main extends React.Component {
         {hornsData.map((item,idx)=>{
             return (
                 <HornedBeast
-                   key={idx}
+                
                     title={item.title}
                     imgUrl={item.image_url}
                     description= {item.description}
